@@ -1,4 +1,5 @@
 import { HiOutlineAcademicCap } from 'react-icons/hi2';
+import { FiGithub } from 'react-icons/fi';
 
 export default function Footer() {
   return (
@@ -14,6 +15,15 @@ export default function Footer() {
           <p className="text-sm text-slate-600 hover:text-slate-400 transition-colors duration-300 cursor-default">
             &copy; {new Date().getFullYear()} ScholarHub. Built with MERN Stack.
           </p>
+          <a
+            href="https://github.com/Janiish/Scholarship_Portal"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="flex items-center gap-1.5 text-sm text-slate-400 hover:text-white transition-colors duration-300"
+          >
+            <FiGithub className="w-4 h-4" />
+            <span>GitHub</span>
+          </a>
         </div>
       </div>
     </footer>
