@@ -81,7 +81,7 @@ Scholarship_Portal/
 
 ```bash
 # 1. Clone the repo
-git clone <repo-url>
+git clone https://github.com/Janiish/Scholarship_Portal.git
 cd Scholarship_Portal
 
 # 2. Install backend dependencies
