@@ -7,7 +7,7 @@
     "start": "node server.js",
     "dev": "nodemon server.js",
     "client": "npm run dev --prefix client",
-    "build": "npm run build --prefix client",
+    "build": "cd client && npm install && npm run build",
     "fullstack": "concurrently \"npm run dev\" \"npm run client\""
   },
   "dependencies": {
